@@ -1,0 +1,240 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Proyecto de demostración usando Serenity y Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="0e3317a1f6dd0f31969044253de42707f65618d8f40a7fbfbd00000b197ce7d1.html">Latam</a></span>
+                > <span class="truncate-60"><a
+                    href="eeb807209e959da9ff48b2ed54d5c97c192a39a8a88f47ca01b512990bc660f7.html">Opencart </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-05-2022 15:43</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Latam </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to search and buy flights on the website
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="eb769a5608725af8b1e11d8b73bf9ee5f22fa7a1d934dca94b13b15ab2f04595.html">Test2
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="27b15c67490f4c1d919117ea2c3ea23387a3f0afe63278eddf9841ac52d1c72c.html">Hu001
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Opencart
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given Isaak wants to visit the opencart website<br>And he log in to the opencart website<br>When he goes to the reporting area to review the tax report<br>Then he validates report</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="2feb4aedc2ebfc258a3b9bb37e5ef82a1bfbcb5659788dad1abe9ccac09ff5a2.png" title="Opencart #1: {userN=demo, passW=demo}" width="1366"/>
+                <img src="beb39156e7f9024c50ae0fe6a680cd38622d7d4637edc70f3c70139fe19bf9cf.png" title="Given Isaak wants to visit the opencart website" width="1366"/>
+                <img src="beb39156e7f9024c50ae0fe6a680cd38622d7d4637edc70f3c70139fe19bf9cf.png" title="Isaak opens the Open cart repository" width="1366"/>
+                <img src="644ae177674467c2c8319f3a0955b343a9a67dda65fba8b69571d99d92c23604.png" title="And he log in to the opencart website
+| userN | passW |
+| demo | demo |" width="1366"/>
+                <img src="a32564bba259d629c8273b375008563ee7fed612733152b334e1545badda4fb6.png" title="Isaak enters 'demo' into username" width="1366"/>
+                <img src="35522a68eaf7be2016c24fecaf7e553f9817556c2ef77e56de39d337faa06e59.png" title="Isaak enters 'demo' into password" width="1366"/>
+                <img src="644ae177674467c2c8319f3a0955b343a9a67dda65fba8b69571d99d92c23604.png" title="Isaak clicks on LOGIN_BUTTON" width="1366"/>
+                <img src="2feb4aedc2ebfc258a3b9bb37e5ef82a1bfbcb5659788dad1abe9ccac09ff5a2.png" title="When he goes to the reporting area to review the tax report" width="1366"/>
+                <img src="197d989969badb13544d7fd4cebafb7de6c86e2355fd6b00a38d80cc4bdf7b9a.png" title="Isaak clicks on REPORT_BUTTON_1" width="1366"/>
+                <img src="5b1be4df64aa389863d04628ae02420a2b0962a656081542b39bdf34cfdcdcd9.png" title="Isaak clicks on REPORT_BUTTON_1" width="1366"/>
+                <img src="f0c74ac6689018fd6845ed9700345a34b970f8e9e17abf1cd297294b727436e5.png" title="Isaak clicks on //select[@name='report']" width="1366"/>
+                <img src="aa77765bbc87b82d35186337119e7f0ca3189c69d43dfcf0ec009a9603615fe0.png" title="Isaak types 'ARROW_DOWN' in //select[@name='report']" width="1366"/>
+                <img src="4d582c480c9e4d08de3c3c6030fcd2452ac2f284a64c847e6ed84e0445257c59.png" title="Isaak types 'ARROW_DOWN' in //select[@name='report']" width="1366"/>
+                <img src="9206db2a2896ebfeaf5a6f345bbd01af38fe383b987dd478933b35576a8a1fa9.png" title="Isaak types 'ARROW_DOWN' in //select[@name='report']" width="1366"/>
+                <img src="2feb4aedc2ebfc258a3b9bb37e5ef82a1bfbcb5659788dad1abe9ccac09ff5a2.png" title="Isaak types 'ENTER' in //select[@name='report']" width="1366"/>
+                <img src="2feb4aedc2ebfc258a3b9bb37e5ef82a1bfbcb5659788dad1abe9ccac09ff5a2.png" title="Then he validates report" width="1366"/>
+                <img src="2feb4aedc2ebfc258a3b9bb37e5ef82a1bfbcb5659788dad1abe9ccac09ff5a2.png" title="Then open cart answer should be 'Reports'" width="1366"/>
+                <img src="beb39156e7f9024c50ae0fe6a680cd38622d7d4637edc70f3c70139fe19bf9cf.png" title="Given Isaak wants to visit the opencart website" width="1366"/>
+                <img src="beb39156e7f9024c50ae0fe6a680cd38622d7d4637edc70f3c70139fe19bf9cf.png" title="Isaak opens the Open cart repository" width="1366"/>
+                <img src="644ae177674467c2c8319f3a0955b343a9a67dda65fba8b69571d99d92c23604.png" title="And he log in to the opencart website
+| userN | passW |
+| demo | demo |" width="1366"/>
+                <img src="a32564bba259d629c8273b375008563ee7fed612733152b334e1545badda4fb6.png" title="Isaak enters 'demo' into username" width="1366"/>
+                <img src="35522a68eaf7be2016c24fecaf7e553f9817556c2ef77e56de39d337faa06e59.png" title="Isaak enters 'demo' into password" width="1366"/>
+                <img src="644ae177674467c2c8319f3a0955b343a9a67dda65fba8b69571d99d92c23604.png" title="Isaak clicks on LOGIN_BUTTON" width="1366"/>
+                <img src="94b33580a1a4d4ea83766fae430f21b2ce975e219262fa4e5a13b1bae110a471.png" title="When he clicks to the catalog and clicks to the products section" width="1366"/>
+                <img src="6ce4661efd416f48b9040cea29a79329e074a65e99d1973270b3fa536dad459d.png" title="Isaak clicks on CATALOG_BUTTON" width="1366"/>
+                <img src="94b33580a1a4d4ea83766fae430f21b2ce975e219262fa4e5a13b1bae110a471.png" title="Isaak clicks on //a[contains(text(),'Products')]" width="1366"/>
+                <img src="33d97c55256ad52786481688ca0081e2da232ed99fa748a7993ee1e39516843c.png" title="And he makes a filter to search for a product
+| productName | model | price | quantity |
+| HP LP3065 | Product 21 | 100 | 1000 |" width="1366"/>
+                <img src="36568526269efc1f1539fffcf6b723fb534dd160b86d1f0075c0de21560e87ad.png" title="Isaak enters 'HP LP3065' into PRODUCT_NAME_INPUT" width="1366"/>
+                <img src="cb88bae922acfa9820cf714ba612faf3e9af99569d28271e984d4f0afcb939ae.png" title="Isaak enters 'Product 21' into MODEL_INPUT" width="1366"/>
+                <img src="6d041a105ba36a6487a7f6c8e6efe16cb4216a5daf8d4d28413064289c7ac2a3.png" title="Isaak enters '100' into PRICE_INPUT" width="1366"/>
+                <img src="e067e6744852ce57c52f0e02db4400fa8399d214fd81f6eb3d1033463bd1aa6c.png" title="Isaak enters '1000' into QUANTITY_INPUT" width="1366"/>
+                <img src="168c17aeb632a9e5fe22a2b8ae0a030b425cc2141a0a96f4a207b34ce8e28006.png" title="Isaak clicks on //select[@name='filter_status']" width="1366"/>
+                <img src="d622daec3331d24e3f698f123e307e1096520f88fbcfbe2d101a4e7a96f30a4e.png" title="Isaak types 'ARROW_DOWN' in //select[@name='filter_status']" width="1366"/>
+                <img src="d622daec3331d24e3f698f123e307e1096520f88fbcfbe2d101a4e7a96f30a4e.png" title="Isaak types 'ENTER' in //select[@name='filter_status']" width="1366"/>
+                <img src="33d97c55256ad52786481688ca0081e2da232ed99fa748a7993ee1e39516843c.png" title="Isaak clicks on FILTER_BUTTON" width="1366"/>
+                <img src="33d97c55256ad52786481688ca0081e2da232ed99fa748a7993ee1e39516843c.png" title="Then he validates the product" width="1366"/>
+                <img src="33d97c55256ad52786481688ca0081e2da232ed99fa748a7993ee1e39516843c.png" title="Then open cart answer products should be 'HP LP3065': <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
